@@ -1,12 +1,12 @@
 /* Tạo lớp giả chung cho các biến hay lặp lại */
 
 :root {
-    --primary-color: rgb(238, 75, 43);
+    --primary-color: #14b9d5;
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
     --border-color: #dbdbdb;
-    --star-gold-color: #FFCE3E;
+    /* --star-gold-color: #FFCE3E; */
     /* navbar */
     --navbar-height: 34px;
     --header-height: 120px;
@@ -24,4 +24,19 @@ html {
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
 }
