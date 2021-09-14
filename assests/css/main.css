@@ -1,0 +1,111 @@
+/* 
+1. Làm từ ngoài vào trong
+2. Làm từ trên xuống dưới
+*/
+
+/* 
+1. Vị trí
+2. Kích thước (width, height)
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ..)
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#app {
+
+}
+
+#header {
+    height: var(--header-height);
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+}
+
+.header-bar {
+    display: flex;
+}
+
+.header-logo {
+    margin: auto 0;
+}
+
+.header-logo img {
+    width: 160px;
+    height: 46px;
+    object-fit: contain;
+    padding: 0 15px;
+}
+
+.header-navbar {
+    height: 64px;
+    padding: 0 15px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header-navlink {
+    padding: 25px 15px;
+
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.header-bookbtn a {
+    height: 36px;
+    margin-left: 25px;
+    padding: 12px 15px 10px;
+    display: flex;
+    align-items: center;
+    background: #ba71da;
+    text-decoration: none;
+    border-radius: 18px;
+    color: var(--white-color);
+}
+
+.header-menu {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.header-menu-icon {
+    font-size: 2.5rem;
+    color: var(--white-color);
+}
+
+.header-menu-icon:hover {
+    cursor: pointer;
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
