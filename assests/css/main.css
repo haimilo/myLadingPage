@@ -22,12 +22,11 @@
 
 #header {
     height: var(--header-height);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--background-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
-
 }
 
 .header-bar {
@@ -52,7 +51,6 @@
     font-weight: 400;
     display: flex;
     align-items: center;
-    text-transform: uppercase;
     letter-spacing: 3px;
 }
 
@@ -62,9 +60,22 @@
     list-style: none;
 }
 
+.header-navlist {
+    display: block;
+    position: relative;
+}
+
+.header-navlink::before {
+    content: "";
+    width: 190px;
+    height: 30px;
+    top: 14px;
+    position: absolute;
+}
+
 .header-navlink {
     padding: 25px 15px;
-
+    text-transform: uppercase;
     text-decoration: none;
     color: var(--white-color);
 }
@@ -79,6 +90,7 @@
     text-decoration: none;
     border-radius: 18px;
     color: var(--white-color);
+    text-transform: uppercase;
 }
 
 .header-menu {
@@ -96,6 +108,69 @@
 
 .header-menu-icon:hover {
     cursor: pointer;
+}
+
+.header-navlink:hover ~ .header-subnav,
+.header-subnav:hover {
+    display: block;
+}
+
+.header-subnav {
+    display:none;
+    width: 190px;
+    background: var(--white-color);
+    color: #9a9a9a;
+    z-index: 999;
+    position: absolute;
+    top: 44px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 2px 5px var(--secondary-color);
+}
+
+.subnav-list {
+    height: 48px;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 15px 25px;
+    position: relative;
+}
+
+.subnav-list:last-child {
+    border: none;
+}
+
+.subnav-list:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.subnav-link {
+    text-decoration: none;
+    color: #9a9a9a;
+    font-size: 1.4rem;
+}
+
+.subnav-link-description {
+    float: right;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 11px;
+    padding: 3px 5px;
+    border-radius: 4px;
+}
+
+.subnav-hot {
+    background:#f76570;
+}
+
+.subnav-link-caret {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    top: 17px;
 }
 
 #slider {

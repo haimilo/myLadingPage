@@ -2,10 +2,12 @@
 
 :root {
     --primary-color: #14b9d5;
+    --secondary-color: #f1f1f1;
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
     --border-color: #dbdbdb;
+    --background-color: rgba(0, 0, 0, 0.2);
     /* --star-gold-color: #FFCE3E; */
     /* navbar */
     --navbar-height: 34px;
