@@ -8,12 +8,11 @@
     --text-color: #333;
     --border-color: #dbdbdb;
     --background-color: rgba(0, 0, 0, 0.2);
-    /* --star-gold-color: #FFCE3E; */
-    /* navbar */
+    /* subnav */
     --navbar-height: 34px;
     --header-height: 104px;
-    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
-    --header-sort-bar-height: 46px;
+    --subnav-width: 190px;
+    --subnav-height: 48px;
 }
 
 * {
@@ -24,8 +23,16 @@ html {
     /* Đây là hack để cho cỡ chữ thông thường = 10px */
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    /* Css remove scrollbar */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Remove scrollbar */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .grid {

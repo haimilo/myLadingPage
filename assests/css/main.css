@@ -38,7 +38,7 @@
 }
 
 .header-logo img {
-    width: 160px;
+    width: 180px;
     height: 46px;
     object-fit: contain;
     padding: 0 15px;
@@ -51,7 +51,7 @@
     font-weight: 400;
     display: flex;
     align-items: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .header-nav {
@@ -67,7 +67,7 @@
 
 .header-navlink::before {
     content: "";
-    width: 190px;
+    width: var(--subnav-width);
     height: 30px;
     top: 14px;
     position: absolute;
@@ -80,7 +80,7 @@
     color: var(--white-color);
 }
 
-.header-bookbtn a {
+.header-bookbtn .header-bookbtn-link {
     height: 36px;
     margin-left: 25px;
     padding: 12px 15px 10px;
@@ -102,7 +102,6 @@
 }
 
 .header-menu-icon {
-    font-size: 2.5rem;
     color: var(--white-color);
 }
 
@@ -115,9 +114,9 @@
     display: block;
 }
 
-.header-subnav {
-    display:none;
-    width: 190px;
+.header-subnav, .subnav-open-list {
+    display: none;
+    width: var(--subnav-width);
     background: var(--white-color);
     color: #9a9a9a;
     z-index: 999;
@@ -129,8 +128,9 @@
     box-shadow: 0px 2px 5px var(--secondary-color);
 }
 
-.subnav-list {
-    height: 48px;
+.subnav-list, 
+.subnav-open-item {
+    height: var(--subnav-height);
     border-bottom: 1px solid var(--secondary-color);
     padding: 15px 25px;
     position: relative;
@@ -140,15 +140,17 @@
     border: none;
 }
 
-.subnav-list:hover {
+.subnav-list:hover,
+.subnav-open-item:hover {
     background-color: #f9f9f9;
     cursor: pointer;
 }
 
-.subnav-link {
+.subnav-link, .subnav-open-item-link {
     text-decoration: none;
     color: #9a9a9a;
     font-size: 1.4rem;
+    position: relative;
 }
 
 .subnav-link-description {
@@ -164,6 +166,14 @@
     background:#f76570;
 }
 
+.subnav-best {
+    background: #14b9d5;
+}
+
+.subnav-new {
+    background: #1bbc9b;
+}
+
 .subnav-link-caret {
     display: flex;
     align-items: center;
@@ -172,6 +182,35 @@
     right: 20px;
     top: 17px;
 }
+
+.subnav-expand::before {
+    content: "";
+    height: var(--subnav-height);
+    /* background: red; */
+    width: 25px;
+    position: absolute;
+    top: 0;
+    left: var(--subnav-width);
+}
+
+.subnav-expand:hover > .subnav-open-list, 
+.subnav-open-list:hover {
+    display: block;
+}
+
+.subnav-open-list {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: var(--subnav-width);
+    margin-left: 25px;
+    z-index: 999;
+}
+
+.subnav-open-item {
+
+}
+
 
 #slider {
 
