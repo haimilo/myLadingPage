@@ -5,7 +5,7 @@
     --secondary-color: #f1f1f1;
     --white-color: #fff;
     --black-color: #000;
-    --text-color: #333;
+    --text-color: #9a9a9a;
     --border-color: #dbdbdb;
     --background-color: rgba(0, 0, 0, 0.2);
     /* subnav */
@@ -26,13 +26,35 @@ html {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     /* Css remove scrollbar */
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    /* -ms-overflow-style: none; */
+    /* IE and Edge */
+    /* scrollbar-width: none; */
+    /* Firefox */
 }
 
+
 /* Remove scrollbar */
+
+body {
+    overflow-y: overlay;
+}
+
 body::-webkit-scrollbar {
-  display: none;
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ba71da;
+  border: none;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
 }
 
 .grid {
@@ -48,4 +70,51 @@ body::-webkit-scrollbar {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+/* Subnav */
+
+.subnav-link-description {
+    float: right;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 11px;
+    padding: 3px 5px;
+    border-radius: 4px;
+}
+
+.subnav-hot {
+    background: #f76570;
+}
+
+.subnav-best {
+    background: #14b9d5;
+}
+
+.subnav-new {
+    background: #1bbc9b;
+}
+
+
+/* Slider */
+
+/* Animation lib */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growUp {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
 }
