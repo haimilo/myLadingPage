@@ -21,12 +21,14 @@
 }
 
 #header {
+    z-index: 999;
     height: var(--header-height);
     background-color: var(--background-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
+    width: 100%;
 }
 
 .header-bar {
@@ -208,13 +210,23 @@
 }
 
 #slider {
-
+    /* background: url("/assests/img/slide_img/slide.png") repeat fixed 100%; */
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 #content {
-
+height: 1000px;
 }
 
 #footer {
+
+}
+
+#buy-icon {
 
 }
