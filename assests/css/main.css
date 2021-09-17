@@ -17,13 +17,15 @@
     box-sizing: border-box;
 }
 
-#app {}
-
+#app {
+    position: relative;
+    top: 0;
+}
 
 /* CSS Header */
 
 #header {
-    position: relative;
+    position: absolute;
     z-index: 999;
     height: var(--header-height);
     background-color: var(--background-color);
@@ -192,15 +194,15 @@
     top: 0px;
     left: var(--subnav-width);
     margin-left: 25px;
-    z-index: 999;
 }
+/* ------------------------------------------- */
 
 /* CSS Slider */
 
 #slider {
     background-image: url('/assests/img/slide_img/slide.png');
     /* Set a specific height */
-    min-height: 500px;
+    max-height: var(--slider-height);
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -242,7 +244,7 @@
     text-decoration: none;
 }
 
-.underline-text::after {
+.underline-text--slider::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -289,7 +291,7 @@
     position: absolute;
     top: 25%;
     font-size: 14px;
-    color: var(--text-color);
+    color: var(--text-color)
 }
 
 .slider-input-block:focus {
@@ -360,10 +362,90 @@
     line-height: 16px;
     margin-top: 12px;
 }
+/* ------------------------------------------- */
 
-
+/* CSS-Content */
 #content {
-    height: 10000px;
+    position: absolute;
+    width: 100%;
+    display: block;
+    top: var(--slider-height);
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+.content-proposals {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.content-proposals-header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 62px auto 35px;
+}
+
+.content-proposals-header--label {
+    line-height: 14px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.content-proposals-header--title {
+    line-height: 56px;
+    margin: 20px 0 0 0;
+    color: var(--title-color);
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 36px;
+    display: flex;
+}
+
+.content-proposals-header--subtitle {
+    z-index: 9;
+    position: relative;
+    margin-left: 10px;
+}
+
+.underline-text--proposals::after {
+    content: "";
+    position: absolute;
+    z-index: -9;
+    width: 100%;
+    height: 5px;
+    background-color: #1bbc9b;
+    bottom: 4px;
+    left: 0;
+}
+
+.content-proposals-destination {
+    width: 100%;
+    height: 100px;
+}
+
+.proposals-destination-list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proposals-destination-item {
+    width: calc(100% / 3);
+    height: 400px;
+    padding: 15px;
+    background-color: red;
+    border: 1px solid #000;
 }
 
 #footer {
