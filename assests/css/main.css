@@ -430,7 +430,7 @@
 
 .content-proposals-destination {
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
 }
 
 .proposals-destination-list {
@@ -444,8 +444,166 @@
     width: calc(100% / 3);
     height: 400px;
     padding: 15px;
-    background-color: red;
-    border: 1px solid #000;
+    position: relative;
+}
+
+/* CSS proposals-destination-list */
+.proposals-destination-item-ads {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    position: relative;
+}
+
+.destination-europe {
+    background-image: url('/assests/img/content_img/destination/destination_1.jpeg');
+}
+
+.destination-thailandia {
+    background-image: url('/assests/img/content_img/destination/destination_2.jpeg');
+}
+
+.destination-asia {
+    background-image: url('/assests/img/content_img/destination/destination_3.jpeg');
+}
+
+.destination-italy {
+    background-image: url('/assests/img/content_img/destination/destination_4.jpeg');
+}
+
+.destination-netherlands {
+    background-image: url('/assests/img/content_img/destination/destination_5.jpeg');
+}
+
+.destination-usa {
+    background-image: url('/assests/img/content_img/destination/destination_6.jpeg');
+}
+
+.proposals-destination-icon {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+
+.destination-icon-europe {
+    background-image: url('/assests/img/content_img/icon_des/img_1.png');
+}
+
+.destination-icon-thailandia {
+    background-image: url('/assests/img/content_img/icon_des/img_2.png');
+}
+
+.destination-icon-asia {
+    background-image: url('/assests/img/content_img/icon_des/img_3.png');
+}
+
+.destination-icon-italy {
+    background-image: url('/assests/img/content_img/icon_des/img_4.png');
+}
+
+.destination-icon-netherlands {
+    background-image: url('/assests/img/content_img/icon_des/img_5.png');
+}
+
+.destination-icon-usa {
+    background-image: url('/assests/img/content_img/icon_des/img_6.png');
+}
+
+
+.proposals-destination-description {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: block;
+    width: 100%;
+    height: 43px;
+    color: var(--white-color);
+    text-shadow: 1px 1px var(--text-color);
+}
+
+.proposals-destination-description-header {
+    font-size: 2.0rem;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.proposals-destination-description-subtitle {
+    font-size: 1.4rem;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.proposals-destination-item-hover {
+    position: absolute;
+    z-index: 10;
+    width: 370px;
+    height: 370px;
+    background-color: #14b9d5;
+    opacity: 0;
+}
+
+.proposals-destination-item-hover:hover {
+    animation: fadeIn ease-out .8s forwards;
+}
+
+.destination-item-hover-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.proposals-destination-hover-description {
+    color: var(--white-color);
+}
+
+.destination-hover-description-title {
+    font-size: 2.0rem;
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.destination-hover-description-subtitle {
+    font-size: 1.4rem;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.proposals-destination-hover-view {
+    margin-top: 20px;
+    width: 180px;
+    height: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 15px;
+    color: #14b9d5;
+    padding: 5px 20px;
+    background: var(--white-color);
+}
+
+.proposals-destination-hover-view:hover {
+    animation: growUp linear .3s forwards;
 }
 
 #footer {
