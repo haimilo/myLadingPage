@@ -281,6 +281,11 @@
     border: none;
     flex: 1;
     line-height: 40px;
+    font-size: 1.4rem;
+    color: #ba71da;
+    caret-color: #ba71da;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
 }
 
 .slider-input-block:hover {
@@ -289,9 +294,9 @@
 
 .slider-input-block::placeholder {
     position: absolute;
-    top: 25%;
-    font-size: 14px;
-    color: var(--text-color)
+    top: 30%;
+    font-size: 1.4rem;
+    color: var(--text-color);
 }
 
 .slider-input-block:focus {
@@ -610,6 +615,6 @@
 
 }
 
-#buy-icon {
+#buy-now-btn {
     
 }
