@@ -20,8 +20,8 @@
 #app {
     position: relative;
     top: 0;
-    scroll-behavior: smooth;
 }
+
 
 /* CSS Header */
 
@@ -116,6 +116,41 @@
 .header-menu:hover {
     cursor: pointer;
 }
+
+.header-option {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 324px;
+    height: 100%;
+    /* background: var(--white-color); */
+    background: blue;
+}
+
+.header-option-content {
+
+}
+
+.header-option-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-option-package {
+
+}
+
+.header-option-europe {
+
+}
+
+.header-option-lastMinutes {
+
+}
+
 
 .header-navlink:hover~.header-subnav,
 .header-subnav:hover {
@@ -622,7 +657,7 @@
     right: 30px;
     display: flex;
     align-items: flex-end;
-    z-index: 9999;
+    z-index: 200;
 }
 
 #buy-now-block:hover {
@@ -691,9 +726,8 @@
     position: fixed;
     bottom: 30px;
     left: 30px;
-    z-index: 9999;
+    z-index: 999;
     opacity: 0.5;
-    scroll-behavior: smooth;
 }
 
 #return-top:hover {
