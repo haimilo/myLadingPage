@@ -114,3 +114,12 @@ body::-webkit-scrollbar-thumb:hover {
         transform: scale(1.05);
     }
 }
+
+@keyframes fadeInTop {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
