@@ -123,9 +123,9 @@
     top: 0;
     bottom: 0;
     right: 0;
-    width: 324px;
-    height: 100%;
+    width: 334px;
     background: var(--white-color);
+    overflow: scroll;
 }
 
 .header-option-content {
@@ -137,6 +137,11 @@
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.material-icons-outlined:hover {
+    cursor: pointer;
+    animation: rotateItem linear .4s forwards;
 }
 
 .header-option-package {

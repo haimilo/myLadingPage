@@ -52,6 +52,10 @@ body::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color);
 }
 
+.header-option::-webkit-scrollbar {
+    display: none;
+}
+
 .grid {
     width: 1200px;
     max-width: 100%;
@@ -113,6 +117,15 @@ body::-webkit-scrollbar-thumb:hover {
     }
     to {
         transform: scale(1.05);
+    }
+}
+
+@keyframes rotateItem {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
     }
 }
 
