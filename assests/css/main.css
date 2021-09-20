@@ -125,12 +125,12 @@
     right: 0;
     width: 324px;
     height: 100%;
-    /* background: var(--white-color); */
-    background: blue;
+    background: var(--white-color);
 }
 
 .header-option-content {
-
+    padding: 20px;
+    width: 100%;
 }
 
 .header-option-close {
@@ -140,7 +140,132 @@
 }
 
 .header-option-package {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+}
 
+.header-option-package-subtitle {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.header-option-package-title {
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 35px;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 25px;
+}
+
+.header-option-package-title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #ffd105;
+    bottom: 10px;
+    left: 0;
+    z-index: -9;
+}
+
+.header-option-package-location {
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+
+.option-package-location-item {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+}
+
+.option-package-img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.option-package-img-berlin {
+    background-image: url('/assests/img/option_img/best_packages/Berlin.jpeg');
+}
+
+.option-package-img-hongkong {
+    background-image: url('/assests/img/option_img/best_packages/Hong_Kong.jpeg');
+}
+
+.option-package-img-sanfrancisco {
+    background-image: url('/assests/img/option_img/best_packages/San_Francisco.jpeg');
+}
+
+.option-package-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.option-package-info-header {
+    margin-top: 5px;
+    line-height: 20px;
+    font-size: 2.0rem;
+    color: var(--title-color);
+
+}
+
+.option-package-info-destination {
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.option-package-info__destination {
+    margin-left: 5px;
+}
+
+.option-package-info-btn {
+    width: 100%;
+    height: 28px;
+    border-radius: 14px;
+    border: none;
+    margin: 20px auto 0;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    opacity: 0.9;
+}
+
+.option-package-info-btn:hover {
+    opacity: 1;
+    box-shadow: 0 0 1px var(--text-color);
+    cursor: pointer;
+}
+
+.package-info-btn-berlin {
+    background: linear-gradient(to right, #ffd105, #ff9b05);
+}
+
+.package-info-btn-hongkong {
+    background: linear-gradient(to right, #f76570, #f78d65);
+}
+
+.package-info-btn-sanfrancisco {
+    background: linear-gradient(to right, #ba71da, #da717b);
 }
 
 .header-option-europe {
