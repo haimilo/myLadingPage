@@ -752,8 +752,15 @@
     height: 370px;
 }
 
-.proposals-destination-item-hover:hover {
+/* .mouse-over {
+    opacity: 1;
     animation: fadeIn ease-out .8s forwards;
+    transition: opacity 0.8s ease-out;
+} */
+
+.proposals-destination-item-hover:hover {
+    opacity: 1;
+    transition: opacity 0.8s ease-out;
 }
 
 .destination-item-hover-wrap {
