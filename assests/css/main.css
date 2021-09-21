@@ -139,7 +139,7 @@
     right: 20px;
 }
 
-.material-icons-outlined:hover {
+.cancel-btn:hover {
     cursor: pointer;
     animation: rotateItem linear .4s forwards;
 }
@@ -274,7 +274,12 @@
 }
 
 .header-option-europe {
-
+    margin: 20px auto;
+    width: 264px;
+    height: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-option-lastMinutes {
@@ -718,10 +723,20 @@
 .proposals-destination-item-hover {
     position: absolute;
     z-index: 10;
-    width: 370px;
-    height: 370px;
+    width: 100%;
+    height: 100%;
     background-color: #14b9d5;
     opacity: 0;
+}
+
+.header-option-hover {
+    width: 264px;
+    height: 264px;
+}
+
+.content-option-hover {
+    width: 370px;
+    height: 370px;
 }
 
 .proposals-destination-item-hover:hover {
