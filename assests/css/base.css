@@ -94,6 +94,59 @@ body::-webkit-scrollbar-thumb:hover {
 .subnav-new {
     background: #1bbc9b;
 }
+
+/* Best Packages option */
+
+.option-package-img-berlin {
+    background-image: url('/assests/img/option_img/best_packages/Berlin.jpeg');
+}
+
+.option-package-img-hongkong {
+    background-image: url('/assests/img/option_img/best_packages/Hong_Kong.jpeg');
+}
+
+.option-package-img-sanfrancisco {
+    background-image: url('/assests/img/option_img/best_packages/San_Francisco.jpeg');
+}
+
+.package-info-btn-berlin {
+    background: linear-gradient(to right, #ffd105, #ff9b05);
+}
+
+.package-info-btn-hongkong {
+    background: linear-gradient(to right, #f76570, #f78d65);
+}
+
+.package-info-btn-sanfrancisco {
+    background: linear-gradient(to right, #ba71da, #da717b);
+}
+
+/* Last minutes option */
+
+.option-package-img-tuscany {
+    background-image: url('/assests/img/option_img/last-minutes/tuscany.jpeg');
+}
+
+.option-package-img-amsterdam {
+    background-image: url('/assests/img/option_img/last-minutes/amsterdam.jpeg');
+}
+
+.option-package-img-phuket {
+    background-image: url('/assests/img/option_img/last-minutes/phuket.jpeg');
+}
+
+.package-info-btn-tuscany {
+    background: linear-gradient(to right, #1bbc9b, #1bbc63);
+}
+
+.package-info-btn-amsterdam {
+    background: linear-gradient(to right, #f3a46b, #f3c96b);
+}
+
+.package-info-btn-phuket {
+    background: linear-gradient(to right, #14b9d5, #14d5b1);
+}
+
 /* ------------------------------------------- */
 
 /* Slider */
@@ -125,7 +178,7 @@ body::-webkit-scrollbar-thumb:hover {
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(180deg);
+        transform: rotate(90deg);
     }
 }
 
@@ -135,5 +188,14 @@ body::-webkit-scrollbar-thumb:hover {
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes slideToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
     }
 }
