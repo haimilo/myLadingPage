@@ -887,15 +887,14 @@
 
 .content-best-beaches {
     width: 1200px;
-    height: 1000px;
-    /* background: blue; */
     margin: 0 auto;
+    padding-bottom: 60px;
 }
 
 .best-beaches-infor {
     display: flex;
     width: 100%;
-    /* height: 400px; */
+    height: 505px;
 }
 
 .best-beaches-infor-description {
@@ -988,6 +987,7 @@
 
 .best-beaches-infor-destination {
     flex: 2;
+    height: 410px;
     position: relative;
 }
 
@@ -1002,26 +1002,114 @@
 }
 
 .best-beaches-infor-destination-limit {
+    height: 115px;
+    width: 490px;
+    background: #14b9d5;
+    position: absolute;
+    bottom: calc(0px - (115px / 2));
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.infor-destination-limit-days,
+.infor-destination-limit-hours,
+.infor-destination-limit-minutes,
+.infor-destination-limit-seconds {
+    padding: 30px 0;
+    height: 100%;
+    text-align: center;
+    flex: 1;
+}
+
+.infor-destination-limit-num {
+    font-size: 3.5rem;
+    line-height: 35px;
+}
+
+.infor-destination-limit-text {
+    font-size: 1.3rem;
+    line-height: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+.infor-destination-limit-space {
+    font-size: 5rem;
+    line-height: 50px;
+    font-weight: lighter;
+    color: var(--black-color);
+    opacity: 0.05;
 }
 
 
 .best-beaches-option {
-
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
 }
 
-.best-beaches-option-world {
-
+.best-beaches-option-block {
+    display: flex;
+    padding: 0 15px;
+    flex: 1;    
 }
 
-.best-beaches-option-cruises {
-
+.best-beaches-option-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.best-beaches-option-tour {
-
+.best-beaches-option-icon-world {
+    background-image: url('/assests/img/content_img/best_beaches/option_img/world.png');
 }
 
+.best-beaches-option-icon-cruises {
+    background-image: url('/assests/img/content_img/best_beaches/option_img/cruises.png');
+}
+
+.best-beaches-option-icon-tour {
+    background-image: url('/assests/img/content_img/best_beaches/option_img/tour.png');
+}
+
+.best-beaches-option-info {
+    display: block;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.best-beaches-option-info-header {
+    font-size: 2.4rem;
+    line-height: 24px;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.best-beaches-option-info-description {
+    margin: 20px 0;
+    font-size: 1.4rem;
+    line-height: 24px;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+.best-beaches-option-info-more {
+    color: #14b9d5;
+    font-size: 1.4rem;
+    line-height: 14px;
+}
+
+.best-beaches-option-info-more:hover {
+    cursor: pointer;
+}
 
 #footer {
 
