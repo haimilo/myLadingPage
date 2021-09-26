@@ -1125,6 +1125,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .content-discover-block-nature {
@@ -1134,8 +1138,56 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.content-discover-block-header {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.content-discover-block-header-subtitle {
+    font-size: 1.4rem;
+    line-height: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content-discover-block-header-title {
+    font-size: 3.6rem;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content-discover-block-details {
+    border: none;
+    text-transform: uppercase;
+    background: var(--white-color);
+    letter-spacing: 2px;
+    height: 44px;
+    padding: 15px 35px;
+    border-radius: 22px;
+    font-size: 1.4rem;
+}
+
+.discover-block-details-cities {
+    color: #f3a46b;
+}
+
+.discover-block-details-nature {
+    color: #1bbc9b;
+}
+
+.content-discover-block-details:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px var(--text-color);
+}
 
 #footer {
 
