@@ -573,6 +573,10 @@
     margin: 0 auto;
 }
 
+.content-promotions {
+    padding-bottom: 60px;
+}
+
 .content-proposals-header,
 .content-promotions-header {
     width: 100%;
@@ -1204,25 +1208,138 @@
 .promotions-destination-list {
     list-style: none;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .promotions-destination-item {
     width: calc(100% / 3);
-    height: 300px;
     padding: 15px;
-    background: red;
-    border: 1px solid #000;
 }
 
 .promotions-destination-item-infor {
+    position: relative;
+}
 
+.destination-item-infor-icon--sale {
+    position: absolute;
+    padding: 5px 12px;
+    top: 14px;
+    right: 14px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    background: var(--title-color);
+    font-size: 1.4rem;
+    line-height: 12px;
+    border-radius: 14px;
+}
+
+.destination-item-infor-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: -25px;
+    right: 20px;
+}
+
+.destination-item-infor-icon--img {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .destination-item-infor-img {
     width: 100%;
 }
+
+.promotions-destination-item-block {
+    padding: 30px;
+    border: 1px solid var(--border-color);
+    border-top: none;
+    margin-top: -5px;
+}
+
+.promotions-destination-item-header {
+    font-size: 2.0rem;
+    line-height: 20px;
+    color: var(--title-color);
+    margin-bottom: 10px;
+}
+
+.promotions-destination-item-location {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.promotions-destination-item-destination {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-left: 4px;
+}
+
+.promotions-destination-item-prices {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.promotions-destination-item-option {
+    flex: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: var(--title-color);
+}
+
+.destination-item-option-point {
+    color: var(--white-color);
+    font-size: 1rem;
+    margin-left: 5px;
+    line-height: 8px;
+    border-radius: 16px;
+    padding: 0px 8px;
+    letter-spacing: 1px;
+}
+
+.promotions-destination-item-cost {
+    display: flex;
+    font-size: 2.5rem;
+    line-height: 40px;
+    color: var(--title-color);
+}
+
+.promotions-destination-item-cost-sale {
+    color: var(--text-color);
+    margin-right: 6px;
+    text-decoration: line-through;
+    font-size: 2rem;
+}
+
+.promotions-destination-item-description {
+    margin: 20px 0;
+    text-align: justify;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 28px;
+}
+
+.promotions-destination-item-details {
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 6px 20px;
+    font-size: 1.4rem;
+    line-height: 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
 
 #footer {
 

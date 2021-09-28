@@ -147,6 +147,35 @@ body::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(to right, #14b9d5, #14d5b1);
 }
 
+/* Destination item */
+
+.destination-item-infor-icon--berlin {
+    background: linear-gradient(to right, #ffd205, #ff9b05);
+}
+
+.destination-item-option-point--berlin,
+.promotions-destination-item-details--berlin {
+    background: #ffd205;
+}
+
+.destination-item-infor-icon--hong-kong {
+    background: linear-gradient(to right, #f76570, #f78d65);
+}
+
+.destination-item-option-point--hong-kong,
+.promotions-destination-item-details--hong-kong {
+    background: #f76570;
+}
+
+.destination-item-infor-icon--san-francisco {
+    background: linear-gradient(to right, #ba71da, #da717b);
+}
+
+.destination-item-option-point--san-francisco,
+.promotions-destination-item-details--san-francisco {
+    background: #ba71da;
+}
+
 /* ------------------------------------------- */
 
 /* Slider */
