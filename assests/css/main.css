@@ -1420,8 +1420,94 @@
     width: 1200px;
     height: 290px;
     padding: 35px 30px;
-    background: red;
+    background: var(--white-color);
+    display: flex;
+}
 
+.footer--contact-infor-block {
+    flex: 1;
+    padding: 0 25px 0 15px;
+}
+
+.contact-infor-block-logo {
+    width: 150px;
+    height: 36px;
+    margin: 10px 0;
+
+}
+
+.contact-infor-block-description {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 26px;
+    text-align: justify;
+    margin: 25px 0;
+}
+
+.contact-infor-block-description span {
+    text-decoration: underline;
+}
+
+.contact-infor-block-social {
+    list-style: none;
+    display: flex;
+}
+
+.contact-infor-block-item {
+    margin-right: 20px;
+}
+
+.contact-infor-block-item-link img {
+    width: 22px;
+    height: 22px;
+}
+
+.footer--contact-infor-option {
+    flex: 1;
+}
+
+.footer--contact-infor-option {
+    padding-left: 15px;
+}
+
+.contact-infor-option-header {
+    display: flex;
+}
+
+.contact-infor-option-header-title {
+    flex: 1;
+    margin: 25px 0 35px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--title-color);
+    letter-spacing: 2px;
+}
+
+.contact-infor-option-block {
+    display: flex;
+
+}
+
+.contact-infor-option-block-list {
+    flex: 1;
+    list-style: none;
+    line-height: 28px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.footer--contact-copyright {
+    width: 1200px;
+    height: 52px;
+    background: #14b9d5;
+    display: flex;
+    justify-content: space-between;
+    color: var(--white-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 20px;
 }
 
 #buy-now-block {
