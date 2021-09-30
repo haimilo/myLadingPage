@@ -18,9 +18,7 @@
 }
 
 #app {
-    /* position: relative;
-    height: 100vh;
-    width: 100%; */
+    position: relative;
 }
 
 
@@ -31,11 +29,14 @@
     z-index: 999;
     height: var(--header-height);
     background-color: var(--background-color);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 20px 50px;
     width: 100%;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
 }
 
 .header-bar {
@@ -104,6 +105,7 @@
 }
 
 .header-menu {
+    width: 64px;
     height: 64px;
     display: flex;
     justify-content: center;
@@ -1514,13 +1516,16 @@
     position: fixed;
     bottom: 30px;
     right: 30px;
-    display: flex;
-    align-items: flex-end;
     z-index: 200;
 }
 
 #buy-now-block:hover {
     cursor: pointer;
+}
+
+.buy-now-elements {
+    display: flex;
+    align-items: flex-end;
 }
 
 .buy-now-btn::after {
