@@ -1,17 +1,46 @@
 /* Tablet & Mobile */
 
 @media (max-width: 1024px) {
-    
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header-navbar-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #slider {
+        background: var(--title-color);
+    }
+    .content-proposals,
+    .content-promotions,
+    .content-best-beaches {
+        width: 100%;
+    }
+    .proposals-destination-item,
+    .destination-item-hover-wrap {
+        width: 100%;
+    }
+
+    .content-option-hover {
+        width: 96%;
+    }
+
 }
 
 /* Tablet */
 
 @media (min-width: 740px) and (max-width: 1023px){
-    
+    .hide-on-tablet {
+        display: none;
+    }
 }
 
 /* Mobile */
 
 @media (max-width: 739px) {
-    
+    .hide-on-mobile {
+        display: none;
+    }
 }

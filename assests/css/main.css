@@ -27,16 +27,16 @@
 #header {
     position: absolute;
     z-index: 999;
-    height: var(--header-height);
+    /* height: var(--header-height); */
     background-color: var(--background-color);
     padding: 20px 50px;
     width: 100%;
 }
 
-.header-navbar {
+.header-navbar-block {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .header-bar {
@@ -422,6 +422,7 @@
     position: relative;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .slider-title-subtitle {
@@ -571,7 +572,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
 }
 
 .content-promotions {
@@ -631,7 +631,6 @@
 
 .content-proposals-destination {
     width: 100%;
-    /* height: 100px; */
 }
 
 .proposals-destination-list {
@@ -763,12 +762,6 @@
     width: 370px;
     height: 370px;
 }
-
-/* .mouse-over {
-    opacity: 1;
-    animation: fadeIn ease-out .8s forwards;
-    transition: opacity 0.8s ease-out;
-} */
 
 .proposals-destination-item-hover:hover {
     opacity: 1;
