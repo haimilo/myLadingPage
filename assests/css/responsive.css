@@ -4,29 +4,21 @@
     .hide-on-mobile-tablet {
         display: none;
     }
+    #header,
+    #slider {
+        margin: 0;
+        padding: 0;
+    }
     .header-navbar-block {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin: 0;
     }
     #slider {
         background: var(--title-color);
     }
-    .content-proposals,
-    .content-promotions,
-    .content-best-beaches {
-        width: 100%;
-    }
-    .proposals-destination-item,
-    .destination-item-hover-wrap {
-        width: 100%;
-    }
-
-    .content-option-hover {
-        width: 96%;
-    }
-
 }
 
 /* Tablet */
