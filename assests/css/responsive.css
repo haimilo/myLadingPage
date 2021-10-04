@@ -5,7 +5,8 @@
         display: none;
     }
     #header,
-    #slider {
+    #slider,
+    #content {
         margin: 0;
         padding: 0;
     }
@@ -16,9 +17,85 @@
         flex-direction: column;
         margin: 0;
     }
-    #slider {
-        background: var(--title-color);
+
+    .content-proposals,
+    .content-promotions {
+        width: 100%;
     }
+
+    .proposals-destination-item
+    {
+        width: 100%;
+        display: flex;
+        padding: 10px 10px;
+        margin: 5px 0;
+    }
+
+    .content-option-hover {
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        padding: 0 10px;
+    }
+
+    .proposals-destination-item-ads {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .content-best-beaches {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .best-beaches-infor {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .beaches-infor-description-subtitle,
+    .beaches-infor-description-title {
+        text-align: center;
+    }
+
+    .beaches-infor-description-content {
+        text-align: center;
+        margin: 20px 10px;
+    }
+
+    .best-beaches-infor-description {
+        display: block;
+        padding: 0;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .best-beaches-infor-destination {
+        width: 80%;
+        margin: 0 auto;
+    }  
+
+    .best-beaches-infor-destination-limit {
+        width: 100%;
+        bottom: -50px;
+    }
+
+    .beaches-infor-description-price {
+        margin: 20px 50px;
+        justify-content: flex-end;
+    }
+
+    .beaches-infor-description-btn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30%;
+    }
+
+    .promotions-destination-item-cost {
+        flex-direction: column;
+    }
+
 }
 
 /* Tablet */
@@ -27,6 +104,18 @@
     .hide-on-tablet {
         display: none;
     }
+
+    .beaches-infor-description-price {
+        margin: 20px 50px;
+        justify-content: flex-end;
+    }
+
+    .beaches-infor-description-btn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30%;
+    }
 }
 
 /* Mobile */
@@ -34,5 +123,76 @@
 @media (max-width: 739px) {
     .hide-on-mobile {
         display: none;
+    }
+
+    .slider-input {
+        width: 80%;
+    }
+
+    .slider-option {
+        width: 100%;
+    }
+
+    .slider-subcontent {
+        text-align: center;
+    }
+
+    .slider-option-list {
+        flex-wrap: wrap;
+    }
+
+    .slider-option-item {
+        width: 40%;
+        margin: 15px 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-next-holiday {
+        flex-wrap: wrap;
+    }
+
+    .next-holiday-infor {
+        width: 100%;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .next-holiday-btn {
+        margin-bottom: 25px;
+    }
+
+    .beaches-infor-description-price {
+        margin: 15px auto;
+        justify-content: center;
+    }
+
+    .beaches-infor-description-btn {
+        width: 100%;
+    }
+
+    .best-beaches-option {
+        flex-direction: column;
+    }
+
+    .best-beaches-option-block {
+        padding: 0 25px 25px;
+    }
+
+    .infor-destination-limit-num {
+        font-size: 1.5rem;
+        line-height: 15px;
+    }
+
+    .infor-destination-limit-text {
+        font-size: 1rem;
+    }
+
+    .infor-destination-limit-days,
+    .infor-destination-limit-hours,
+    .infor-destination-limit-minutes,
+    .infor-destination-limit-seconds {
+        padding: 15px 0;
     }
 }
