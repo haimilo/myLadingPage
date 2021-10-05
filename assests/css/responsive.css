@@ -81,7 +81,7 @@
     }
 
     .beaches-infor-description-price {
-        margin: 20px 50px;
+        margin: 20px 10px;
         justify-content: flex-end;
     }
 
@@ -92,10 +92,13 @@
         width: 30%;
     }
 
-    .promotions-destination-item-cost {
-        flex-direction: column;
+    .promotions-destination-list {
+        flex-wrap: wrap;
     }
 
+    .promotions-destination-item {
+        width: 100%;
+    }
 }
 
 /* Tablet */
@@ -106,7 +109,7 @@
     }
 
     .beaches-infor-description-price {
-        margin: 20px 50px;
+        margin: 20px 10px;
         justify-content: flex-end;
     }
 
