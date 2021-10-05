@@ -18,6 +18,10 @@
         margin: 0;
     }
 
+    .header-logo {
+        padding: 10px 0;
+    }
+
     .content-proposals,
     .content-promotions {
         width: 100%;
@@ -98,6 +102,24 @@
 
     .promotions-destination-item {
         width: 100%;
+    }
+
+    .footer--contact-us {
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-us-text {
+        text-align: center;
+    }
+
+    .contact-us-text-title {
+        margin-bottom: 20px;
+    }
+
+    .contact-us-fill-infor-input {
+        margin-bottom: 20px;
     }
 }
 
@@ -197,5 +219,16 @@
     .infor-destination-limit-minutes,
     .infor-destination-limit-seconds {
         padding: 15px 0;
+    }
+
+    .content-discover-block {
+        flex-wrap: wrap;
+    }
+
+    .contact-us-fill-infor-input,
+    .contact-us-fill-infor-btn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
