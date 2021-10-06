@@ -662,23 +662,23 @@
 }
 
 .destination-thailandia {
-    background-image: url('/assests/img/content_img/destination/destination_2.jpeg');
+    background-image: url('../img/content_img/destination/destination_2.jpeg');
 }
 
 .destination-asia {
-    background-image: url('/assests/img/content_img/destination/destination_3.jpeg');
+    background-image: url('../img/content_img/destination/destination_3.jpeg');
 }
 
 .destination-italy {
-    background-image: url('/assests/img/content_img/destination/destination_4.jpeg');
+    background-image: url('../img/content_img/destination/destination_4.jpeg');
 }
 
 .destination-netherlands {
-    background-image: url('/assests/img/content_img/destination/destination_5.jpeg');
+    background-image: url('../img/content_img/destination/destination_5.jpeg');
 }
 
 .destination-usa {
-    background-image: url('/assests/img/content_img/destination/destination_6.jpeg');
+    background-image: url('../img/content_img/destination/destination_6.jpeg');
 }
 
 .proposals-destination-icon {
