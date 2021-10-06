@@ -387,7 +387,7 @@
 /* CSS Slider */
 
 #slider {
-    background-image: url('/assests/img/slide_img/slide.png');
+    background-image: url('https://haimilo.github.io/myLadingPage/assests/img/slide_img/slide.png');
     /* Set a specific height */
     max-height: var(--slider-height);
     /* Create the parallax scrolling effect */
@@ -460,7 +460,7 @@
     padding: 10px 25px;
     border: 1px solid var(--border-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 

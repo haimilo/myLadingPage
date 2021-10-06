@@ -152,6 +152,16 @@
 
     .slider-input {
         width: 80%;
+        position: relative;
+        padding: 0 12px;
+    }
+
+    .slider-input-block {
+        border-radius: 22px;
+    }
+
+    .slider-input-btn {
+        border-radius: 50%;
     }
 
     .slider-option {
