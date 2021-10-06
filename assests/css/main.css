@@ -387,7 +387,7 @@
 /* CSS Slider */
 
 #slider {
-    background-image: url('../img/slide_img/slide.png');
+    background-image: url('../assests/img/slide_img/slide.png');
     /* Set a specific height */
     max-height: var(--slider-height);
     /* Create the parallax scrolling effect */
@@ -662,23 +662,23 @@
 }
 
 .destination-thailandia {
-    background-image: url('../assests/img/content_img/destination/destination_2.jpeg');
+    background-image: url('/assests/img/content_img/destination/destination_2.jpeg');
 }
 
 .destination-asia {
-    background-image: url('../assests/img/content_img/destination/destination_3.jpeg');
+    background-image: url('/assests/img/content_img/destination/destination_3.jpeg');
 }
 
 .destination-italy {
-    background-image: url('../assests/img/content_img/destination/destination_4.jpeg');
+    background-image: url('/assests/img/content_img/destination/destination_4.jpeg');
 }
 
 .destination-netherlands {
-    background-image: url('../assests/img/content_img/destination/destination_5.jpeg');
+    background-image: url('/assests/img/content_img/destination/destination_5.jpeg');
 }
 
 .destination-usa {
-    background-image: url('../assests/img/content_img/destination/destination_6.jpeg');
+    background-image: url('/assests/img/content_img/destination/destination_6.jpeg');
 }
 
 .proposals-destination-icon {
@@ -694,27 +694,27 @@
 }
 
 .destination-icon-europe {
-    background-image: url('../assests/img/content_img/icon_des/img_1.png');
+    background-image: url('/assests/img/content_img/icon_des/img_1.png');
 }
 
 .destination-icon-thailandia {
-    background-image: url('../assests/img/content_img/icon_des/img_2.png');
+    background-image: url('/assests/img/content_img/icon_des/img_2.png');
 }
 
 .destination-icon-asia {
-    background-image: url('../assests/img/content_img/icon_des/img_3.png');
+    background-image: url('/assests/img/content_img/icon_des/img_3.png');
 }
 
 .destination-icon-italy {
-    background-image: url('../assests/img/content_img/icon_des/img_4.png');
+    background-image: url('/assests/img/content_img/icon_des/img_4.png');
 }
 
 .destination-icon-netherlands {
-    background-image: url('../assests/img/content_img/icon_des/img_5.png');
+    background-image: url('/assests/img/content_img/icon_des/img_5.png');
 }
 
 .destination-icon-usa {
-    background-image: url('../assests/img/content_img/icon_des/img_6.png');
+    background-image: url('/assests/img/content_img/icon_des/img_6.png');
 }
 
 
@@ -822,7 +822,7 @@
     justify-content: center;
     margin: 60px auto;
     padding: 50px auto;
-    background: url("../assests/img/content_img/next_holiday/north_america.jpeg");
+    background: url("/assests/img/content_img/next_holiday/north_america.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -987,7 +987,7 @@
 .best-beaches-infor-destination-slider {
     width: 100%;
     height: 100%;
-    background: url("../assests/img/content_img/best_beaches/best_beaches_3.jpeg");
+    background: url("/assests/img/content_img/best_beaches/best_beaches_3.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1060,15 +1060,15 @@
 }
 
 .best-beaches-option-icon-world {
-    background-image: url('../assests/img/content_img/best_beaches/option_img/world.png');
+    background-image: url('/assests/img/content_img/best_beaches/option_img/world.png');
 }
 
 .best-beaches-option-icon-cruises {
-    background-image: url('../assests/img/content_img/best_beaches/option_img/cruises.png');
+    background-image: url('/assests/img/content_img/best_beaches/option_img/cruises.png');
 }
 
 .best-beaches-option-icon-tour {
-    background-image: url('../assests/img/content_img/best_beaches/option_img/tour.png');
+    background-image: url('/assests/img/content_img/best_beaches/option_img/tour.png');
 }
 
 .best-beaches-option-info {
@@ -1110,7 +1110,7 @@
 .content-discover-block-cities {
     padding: 60px 15px;
     flex: 1;
-    background-image: url("../assests/img/content_img/discover-block/discover_1.jpeg");
+    background-image: url("/assests/img/content_img/discover-block/discover_1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1123,7 +1123,7 @@
 .content-discover-block-nature {
     flex: 1;
     padding: 60px 15px;
-    background-image: url("../assests/img/content_img/discover-block/discover_2.jpeg");
+    background-image: url("/assests/img/content_img/discover-block/discover_2.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1322,7 +1322,7 @@
 #footer {
     padding-bottom: 80px;
     width: 100%;
-    background-image: url('../assests/img/footer_img/footer_background.jpeg');
+    background-image: url('/assests/img/footer_img/footer_background.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
