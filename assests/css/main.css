@@ -387,7 +387,7 @@
 /* CSS Slider */
 
 #slider {
-    background-image: url('https://haimilo.github.io/myLadingPage/assests/img/slide_img/slide.png');
+    background-image: url('../img/slide_img/slide.png');
     /* Set a specific height */
     max-height: var(--slider-height);
     /* Create the parallax scrolling effect */
