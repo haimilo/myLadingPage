@@ -98,15 +98,15 @@ body::-webkit-scrollbar-thumb:hover {
 /* Best Packages option */
 
 .option-package-img-berlin {
-    background-image: url('/assests/img/option_img/best_packages/Berlin.jpeg');
+    background-image: url('../assests/img/option_img/best_packages/Berlin.jpeg');
 }
 
 .option-package-img-hongkong {
-    background-image: url('/assests/img/option_img/best_packages/Hong_Kong.jpeg');
+    background-image: url('../assests/img/option_img/best_packages/Hong_Kong.jpeg');
 }
 
 .option-package-img-sanfrancisco {
-    background-image: url('/assests/img/option_img/best_packages/San_Francisco.jpeg');
+    background-image: url('../assests/img/option_img/best_packages/San_Francisco.jpeg');
 }
 
 .package-info-btn-berlin {
@@ -124,15 +124,15 @@ body::-webkit-scrollbar-thumb:hover {
 /* Last minutes option */
 
 .option-package-img-tuscany {
-    background-image: url('/assests/img/option_img/last-minutes/tuscany.jpeg');
+    background-image: url('../assests/img/option_img/last-minutes/tuscany.jpeg');
 }
 
 .option-package-img-amsterdam {
-    background-image: url('/assests/img/option_img/last-minutes/amsterdam.jpeg');
+    background-image: url('../assests/img/option_img/last-minutes/amsterdam.jpeg');
 }
 
 .option-package-img-phuket {
-    background-image: url('/assests/img/option_img/last-minutes/phuket.jpeg');
+    background-image: url('../assests/img/option_img/last-minutes/phuket.jpeg');
 }
 
 .package-info-btn-tuscany {
