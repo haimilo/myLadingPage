@@ -1,6 +1,6 @@
 /* Tablet & Mobile */
 
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
     .hide-on-mobile-tablet {
         display: none;
     }
@@ -125,7 +125,7 @@
 
 /* Tablet */
 
-@media (min-width: 740px) and (max-width: 1023px){
+@media (min-width: 740px) and (max-width: 1239px){
     .hide-on-tablet {
         display: none;
     }
