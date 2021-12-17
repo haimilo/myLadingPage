@@ -487,13 +487,12 @@
 
 .slider-input-block::placeholder {
     position: absolute;
-    top: 30%;
+    top: 12px;
     font-size: 1.4rem;
     color: var(--text-color);
 }
 
 .slider-input-block:focus {
-    border: none;
     outline: none;
 }
 
