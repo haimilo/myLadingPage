@@ -488,7 +488,6 @@
 .slider-input-block::placeholder {
     position: absolute;
     top: 30%;
-    left: -10px;
     font-size: 1.4rem;
     color: var(--text-color);
 }
